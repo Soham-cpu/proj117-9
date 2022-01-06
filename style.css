@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(23, 140, 235);
+}
+
+h1{
+    color:rgb(235, 128, 66);
+    background-color: paleturquoise;
+}
+
+#sketches{
+    float: right;
+    margin-right: 20px; 
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: nem;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 75px;
+}
+
+@keyframes nem {
+    from{box-shadow: 1px 1px 75px aquamarine;}
+    to{box-shadow: 1px 1px 50px orangered;}
+}
+
+
+#clearingCanvas{
+    margin-top: 275px;
+}
+
+#scores{
+    float: left;
+    margin-left: 50px;
+}
+
+#timer{
+    float: right;
+    margin-right: 100px;
+}
